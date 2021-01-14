@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; // 1
+}
+
+
+.min_100_vh {
+    min-height: calc(100vh - 164.75px);
+    margin-top: 76.95px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4faf4;
+}
+
+.btn-primary {
+  background: #92c800;
+  border-color: #92c800;
+}
+
+.btn-primary:hover {
+  background:#82b106;
+  border-color: #82b106;
+}
+.btn-outline-danger {
+  border-color:white;
+}
+.btn-outline-danger:hover {
+  border: 1px solid #dc3545;
+  background-color:white;
+  color:#dc3545;
+}
